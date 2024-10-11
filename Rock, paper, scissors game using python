@@ -1,5 +1,3 @@
-#Rock Paper Scissors
-#15/01/2017
 print 'Hello, this is Rock, Paper, Scissors for you!'
 namep1 = raw_input('Whats your name? ')
 again_ = 1
