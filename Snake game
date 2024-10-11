@@ -1,13 +1,10 @@
 class SnakeGame:
     def _init_(self, width: int, height: int, food: List[List[int]]):
-        # Initialize the game board with the given width and height
         self.width = width
         self.height = height
       
-        # Load the food positions onto the game board
         self.food = deque(food)
       
-        # Initialize the score of the game as 0
         self.score = 0
       
         # The snake's body is represented as a queue with initial position at the top-left
